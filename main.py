@@ -31,7 +31,6 @@ from requests_html import AsyncHTMLSession
 ISRO_URL = "https://www.isro.gov.in/"
 PSLV_URL = ISRO_URL + "/" + "PSLV_Launchers.html"
 asession = AsyncHTMLSession()
-missions = {}
 
 
 async def get_pslv():
